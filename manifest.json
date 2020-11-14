@@ -1,12 +1,26 @@
 {
-  "name": "Whereby",
+  "name": "Whereby helper",
   "version": "1.0",
+  "author": "KYSergey",
   "description": "Whereby helper",
+  "page_action": {
+    "default_icon": {
+      "32": "icon32.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
   "content_scripts": [
     {
-      "matches": ["https://*.whereby.com/*"],
+      "matches": ["*://*.whereby.com/*"],
       "js": ["whereby.js"]
     }
   ],
-  "manifest_version": 2
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "*://*.whereby.com/*"
+  ]
 }
