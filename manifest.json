@@ -1,0 +1,12 @@
+{
+  "name": "Whereby",
+  "version": "1.0",
+  "description": "Whereby helper",
+  "content_scripts": [
+    {
+      "matches": ["https://*.whereby.com/*"],
+      "js": ["whereby.js"]
+    }
+  ],
+  "manifest_version": 2
+}
