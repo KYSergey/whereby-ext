@@ -3,7 +3,7 @@
 This is extension for Google Chrome based browsers that allows user to pause stream on whereby.com without breaking conference layout
 
 ## Installation
-- Download extension using [this link](https://drive.google.com/file/d/1zuEzrlJH2E_Q77vcXA-5xD45icMw-pQk/view?usp=sharing)
+- Download extension using [this link](https://drive.google.com/file/d/1KOEAJFjpTuiEtvpoLJGXMcAQLOpUj3mX/view?usp=sharing)
 - Extract archive into desired folder
 - Enter `chrome://extensions` in your browser's address bar and enable Developer mode ![alt](https://drive.google.com/uc?export=view&id=1PO7P9r-i_pT9OJAa5sUpD-msCl2Wool1)
 - Click "Load unpacked" and select folder with extension's content ![alt](https://drive.google.com/uc?export=view&id=1osTwK6V338FuRyHL1CXI56ZZwP0ST2RL)
