@@ -8,6 +8,7 @@ This is extension for Google Chrome based browsers that allows user to pause str
 - Enter `chrome://extensions` in your browser's address bar and enable Developer mode ![alt](https://drive.google.com/uc?export=view&id=1PO7P9r-i_pT9OJAa5sUpD-msCl2Wool1)
 - Click "Load unpacked" and select folder with extension's content ![alt](https://drive.google.com/uc?export=view&id=1osTwK6V338FuRyHL1CXI56ZZwP0ST2RL)
 - Extension is installed!
+- If you have `whereby` pages opened already - refresh them.
 
 ## Usage
 - Whenever you on `whereby` page you should be able to see extension in you tabbar.

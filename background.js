@@ -18,26 +18,10 @@ function updatePageAction (tabId) {
   });
 }
 
-function injdectContentScript (tab) {
-  chrome.app.getDetails().content_scripts[0].js.forEach(script => {
-    chrome.tabs.executeScript(tab.id, {file: script});
-  });
-}
-
 chrome.tabs.onActivated.addListener(({tabId}) => {
   updatePageAction(tabId);
 });
 
 chrome.tabs.onUpdated.addListener((tabId) => {
   updatePageAction(tabId);
-});
-
-chrome.windows.getAll({populate: true}, (windows) => {
-  windows.forEach(window => {
-    window.tabs.forEach(tab => {
-      if (isWhereBy(tab.url)) {
-        injdectContentScript(tab);
-      }
-    });
-  });
 });
